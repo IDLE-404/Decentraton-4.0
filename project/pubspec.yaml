@@ -1,0 +1,38 @@
+name: indrive_car_condition
+description: MVP для определения состояния автомобиля inDrive
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  image_picker: ^1.0.4
+  google_fonts: ^6.1.0
+  path_provider: ^2.1.2
+  path: ^1.8.3
+  camera: ^0.10.5+9
+  provider: ^6.0.5
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  audioplayers: ^6.0.0
+  dio: ^5.9.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  build_runner: ^2.4.6
+  hive_generator: ^2.0.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/overlays/car_front.png
+    - assets/overlays/car_left.png
+    - assets/overlays/car_right.png
+    - assets/overlays/car_back.png
+    - assets/audio/
